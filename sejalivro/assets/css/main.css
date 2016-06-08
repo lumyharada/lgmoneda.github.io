@@ -421,9 +421,11 @@
 		margin-left: 8.33333%;
 	}
 	
-	.row input[type="radio"] {
-		display: block;
-    		margin: 0 auto -40px;
+	input[type=radio],
+	input.radio {
+	  	float: left;
+		clear: none;
+		margin: 2px 0 0 2px;
 	}
 
 	@media screen and (min-width: 737px) {
