@@ -1293,8 +1293,8 @@
 	}
 	
 	form input[type="radio"] {
-		line-height: 3em;
-		padding: 0 1em;
+		display: block;
+    		margin: 0 auto -40px;
 	}
 
 	form select {
