@@ -1291,6 +1291,11 @@
 		line-height: 3em;
 		padding: 0 1em;
 	}
+	
+	form input[type="radio"] {
+		line-height: 3em;
+		padding: 0 1em;
+	}
 
 	form select {
 		line-height: 3em;
