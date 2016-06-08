@@ -420,6 +420,11 @@
 	.\-1u {
 		margin-left: 8.33333%;
 	}
+	
+	.row input[type="radio"] {
+		display: block;
+    		margin: 0 auto -40px;
+	}
 
 	@media screen and (min-width: 737px) {
 
@@ -1290,11 +1295,6 @@
 	form input[type="password"] {
 		line-height: 3em;
 		padding: 0 1em;
-	}
-	
-	form input[type="radio"] {
-		display: block;
-    		margin: 0 auto -40px;
 	}
 
 	form select {
